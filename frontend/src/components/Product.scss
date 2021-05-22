@@ -22,17 +22,24 @@
   margin-bottom: 8px;
 }
 
+.product__info > a {
+  text-decoration: none;
+  color: black;
+}
+
 .info__price {
   font-weight: bold;
 }
 
 .info__name {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
   overflow: hidden;
 }
 
 .info__description {
   font-size: 0.8rem;
+  padding: 0.5rem 0;
 }
 
 .info__button {
