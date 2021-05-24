@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import SideDrawer from './components/SideDrawer';
 import Backdrop from './components/Backdrop';
+import Footer from './components/Footer';
 
 // Screens
 import HomeScreen from './screens/HomeScreen';
@@ -26,6 +27,7 @@ function App() {
           <Route exact path='/cart' component={CartScreen} />
         </Switch>
       </main>
+      <Footer />
     </Router>
   );
 }
