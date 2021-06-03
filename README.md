@@ -1,6 +1,6 @@
-# CHRONOS
+# chronos
 
-A simple Ecommerce site with both Frontend and Backend, completed .
+A simple Ecommerce site with both Frontend and Backend.
 
 This project was built with React, Redux, NodeJs, Express, deployed with Heroku.
 
